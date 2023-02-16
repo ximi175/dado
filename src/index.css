@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: aqua;
+  margin: 0;
+}
+
+#dado {
+  display: inline-block;
+  position: absolute;
+  translate: -100px -100px;
+  top: 50%;
+  width: 200px;
+  height: 200px;
+  border: 6px solid red;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px black;
+}
+
+#botton {
+  color: black;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  translate: 0 -21px;
+}
+
+#valor {
+  -webkit-text-stroke: 4px red;
+  display: flex;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 200px;
+  color: rgb(243 188 188);
+  text-shadow: 5px 5px 10px black;
+  border-radius: 3px;
+}
